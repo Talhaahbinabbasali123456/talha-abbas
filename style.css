@@ -1,201 +1,224 @@
-.container {
-	border:1px solid #ddea69;
-	display: block;
-	padding: 60px 15px 15px 15px;
-	width: 28%;
-	position: absolute;
-}
-.a {
-	border-bottom: 1px solid #ddea69;
-	padding: 10px 40px 15px 0px;
-}
-h1	{
-	font-size: 21px;
-	color: blue;
-	margin: 0px 0px 7px;
-	padding: 0px; 
-	display: block;
-}
-header 	{
-	text-align: center;
-	background: linear-gradient(to right, #00800094 , #0000ff87);
-	color: white;
-	font-size: 25px;
-	padding: 15px;
-	width: 91%;
-	position: absolute;
-	top: 0px;	
-	left: 0px;
-}
-p {
-	margin: 0px 0px 7px;
-	padding: 0px;
-	color: gray;
-	font-size: 13px; 
-}
-.b {
-	color: green;
-}
-.c {
-	font-weight: bold;
-	color: orange;
-	margin: 0px 0px 12px;
-	padding: 0px;
-}
-.d {
-
-	margin: 0px 0px 7px;
-	padding: 5px;
-	color: blue;
-	background-color: lightblue;
-}
-.e {
-	
-	margin: 0px 0px 7px;
-	padding: 5px;
-	color: blue;
-	background-color: lightblue;
-}
-.f {
-	font-size: 12px;
-	padding: 0px;
-	margin: 0px 0px 20px 0px;
-}
-.g {
-	padding: 8px;
-	margin: 10px 0px 7px 0px;
-	background-color: blue;
-	border-radius: 2px;
-	color: white;
-	border:1px solid blue;
-}
-.a:nth-child(5)  {
-	border-bottom: 0px solid gold;
-}
-.hide {
-	font-size: 20px;
-	/*width: 0px;*/
-	position: absolute;
-	right: 15px;
-	color: gray; 
-	display: none;
-}
-.hide:hover {
-	font-size: 20px;
-	position: absolute;
-	right: 15px;
-	color: black; 
-	display: none;
-}
-.a:hover {
+body {
 	cursor: pointer;
-}
-.a:hover .hide {
-	display: block;
-}
-.hider  {
-	position: absolute;
-	padding: 1px;
-	right: 0px;
-	bottom: 20px;
-	width: 100px;
-	height: 20px;
+	background-image: url(images/website-background.jpg);
+	background-size: contain;
 	text-align: center;
-	font-size: 15px; 
-	background-color: black;
+	font-family: 'Berkshire Swash', cursive;
+}
+nav:hover {
+	color: black;
+	background-color: white;
+	transition: 10s;
+}
+nav {
+	background-image: url(images/img/imagess.jpg);
+	background-size: cover;
 	color: white;
-	display: none; 
+	padding: 10px;
+	font-size: 30px;
 }
-.hi{
-	position: absolute;
-    left: 282px;
-	top: 71px;
-	width: 20px;
-	height: 20px;
-	display: block;
-	z-index: 1;
-	color: black; 
+li > div {
+	padding: 0px 20px;
+	/*color: white;*/
 }
-.hi:hover .hider {
+li > div:hover {
+	color: black;
+}
+nav > span {
+	margin: 0px 30px;
+}
+nav > span > a {
+	color: white;
+}
 
-	position: absolute;
+nav > span > a:hover {
+	background-color: white;
+	color: black;
+	transition: 5s;
+}
+nav > span:hover {
+	color: blue;
+	transition: 2s;
+}
+li {
+	list-style-type: none;
 	text-align: center;
-	padding: 1px;
-	right: 0px;
-	bottom: 20px;
-	width: 100px;
-	height: 20px;
-	font-size: 15px; 
-	background-color: black;
-	color: white;
-	display: block; 
-}
-
-.hiderr {
-	background-color: black;
-	color: white; 
-	font-size: 15px;
-	padding: 1px;
-	right: 3px;
-	bottom: 20px;
-	width: 100px;
-	height: 20px;
-	position: absolute;
-	display: none;
-}
-.hid {
-	position: absolute;
-	width: 20px;
-	height: 20px;
 	display: block;
-	z-index: 1;
-	top: 198px;
-	right: 15px;
+	background-image: url(images/img/website-background.jpg);
+	background-size: contain;
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 150px;
+	margin: 5px 10px;
+	border: 2px solid #fbfbfb;
 }
-.hid:hover .hiderr {
-
-	position: absolute;
-	right: 3px;
-	bottom: 20px;
-	width: 100px;
-	height: 20px;
-	font-size: 15px; 
-	background-color: black;
-	color: white;
-	display: block; 
+li:hover {
+	color: black;
+	background-image: url(images/website-background.jpg);
+	background-size: cover;
+	transition: 4s;
+	border: 2px solid black;
 }
-.hiderrr {
-	background-color: black;
-	color: white; 
-	font-size: 15px;
-	padding: 1px;
-	right: 3px;
-	bottom: 20px;
-	width: 100px;
-	height: 20px;
-	position: absolute;
-	display: none;
-
-}
-.hidd {
-	position: absolute;
-	width: 20px;
-	height: 20px;
+h1 {
+	list-style-type: none;
+	text-align: center;
 	display: block;
-	z-index: 1;
-	bottom: 204px;
-	right: 15px;
+	color: black;
+	padding: 10px;
+	margin: 10px;
 }
-.hidd:hover .hiderrr {
-
+.Mockup {
+	display: none;
+	margin: 0px;
+	line-height: 150px;
+	font-size: 30px;
+	text-align: center;
 	position: absolute;
-	right: 3px;
-	bottom: 20px;
-	width: 100px;
-	height: 20px;
-	font-size: 15px; 
-	background-color: black;
-	color: white;
-	display: block; 
+	top: 160px;
+	right: 45px;
+	width: 30%;
+	height: 150px;
+	padding: 20px 0px;
+	background-image: url(images/website-background.jpg);
+	background-size: cover;
+	color: black;
+	font-weight: bold;
 }
-
+.Mockup:hover {
+	background-image: url(images/How-To-Choose-Best-Background-For-Your-Website.jpg);
+	background-size: cover;
+	color: black;
+	font-size: 60px;
+	border-radius: 200px;
+	transition: 4s;
+}
+.Webpage {
+	display: none;
+	margin: 0px;
+	line-height: 150px;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	top: 160px;
+	left: 90px;
+	width: 30%;
+	height: 150px;
+	padding: 20px 0px;
+	background-image: url(images/website-background.jpg);
+	background-size: cover;
+	color: black;
+	font-weight: bold;
+}
+.Webpage:hover {
+	background-image: url(images/How-To-Choose-Best-Background-For-Your-Website.jpg);
+	background-size: cover;
+	color: black;
+	font-size: 60px;
+	border-radius: 200px;
+	transition: 4s;
+} 
+ 
+li > div:hover > span {
+	display: inline-block;
+} 
+.mockup-2 {
+	display: none;
+	margin: 0px;
+	line-height: 220px;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	top: 460px;
+	right: 45px;
+	width: 30%;
+	height: 250px;
+	padding: 20px 0px;
+	background-image: url(images/website-background.jpg);
+	background-size: contain;
+	color: black;
+	font-weight: bold;
+}
+.mockup-2:hover {
+	background-image: url(images/How-To-Choose-Best-Background-For-Your-Website.jpg);
+	background-size: contain;
+	color: black;
+	font-size: 60px;
+	border-radius: 200px;
+	transition: 4s;
+}
+.webpage-2 {
+	display: none;
+	margin: 0px;
+	line-height: 220px;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	top: 460px;
+	left: 90px;
+	width: 30%;
+	height: 250px;
+	padding: 20px 0px;
+	background-image: url(images/website-background.jpg);
+	background-size: contain;
+	color: black;
+	font-weight: bold;
+}
+.webpage-2:hover {
+	background-image: url(images/How-To-Choose-Best-Background-For-Your-Website.jpg);
+	background-size: contain;
+	color: black;
+	font-size: 60px;
+	border-radius: 200px;
+	transition: 4s;
+}
+.mockup-3 {
+	display: none;
+	margin: 0px;
+	/*line-height: 150px;*/
+	/*font-size: 30px;*/
+	text-align: center;
+	position: absolute;
+	top: 870px;
+	right: 25px;
+	width: 30%;
+	/*height: 150px;*/
+	padding: 5px 0px;
+	background-image: url(images/website-background.jpg);
+	background-size: cover;
+	color: black;
+	font-weight: bold;
+}
+.mockup-3:hover {
+	background-image: url(images/How-To-Choose-Best-Background-For-Your-Website.jpg);
+	background-size: cover;
+	color: black;
+	font-size: 25px;
+	border-radius: 100px;
+	transition: 4s;
+}
+.webpage-3 {
+	display: none;
+	margin: 0px;
+	/*line-height: 150px;*/
+	/*font-size: 30px;*/
+	text-align: center;
+	position: absolute;
+	top: 870px;
+	left: 70px;
+	width: 30%;
+	/*height: 150px;*/
+	padding: 5px 0px;
+	background-image: url(images/website-background.jpg);
+	background-size: cover;
+	color: black;
+	font-weight: bold;
+}
+.webpage-3:hover {
+	background-image: url(images/How-To-Choose-Best-Background-For-Your-Website.jpg);
+	background-size: cover;
+	color: black;
+	font-size: 25px;
+	border-radius: 100px;
+	transition: 4s;
+} 

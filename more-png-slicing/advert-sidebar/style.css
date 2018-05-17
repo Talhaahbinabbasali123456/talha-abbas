@@ -1,0 +1,40 @@
+section {
+	background-color: #fefcda;
+	height: 400px;
+	width: 38%;
+	padding:  0px;
+	font-family: 'Roboto', sans-serif;
+}
+.a {
+	width: 350px;
+	font-weight: bold;
+	color: #9c9a89;
+	position: relative;
+	top: 15px;
+	left: 12px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #9c9a89;
+}
+.b {
+	width: 310px;
+	display: inline-block;
+	padding: 20px 0px 0px;
+}
+.b > span {
+	/*text-align: center;*/
+	font-size: 18px;
+	color: #0069d2;
+	font-weight: bold;
+	display: block;
+	padding: 15px 0px 0px;
+}
+.b > span > i {
+	display: inline-block;
+	margin-right: 5px;
+	color: #9c9a89;
+}
+div {
+	position: relative;
+	bottom: 20px;
+	left: 25px;
+}

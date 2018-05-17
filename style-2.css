@@ -1,0 +1,53 @@
+body {
+	cursor: pointer;
+	background-image: url(images/website-background.jpg);
+	background-size: cover;
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+}
+.index-2-sec {
+	background-image: url(images/website-background.jpg);
+	background-size: cover;
+}
+.index-2-sec > span {
+	font-size: 30px;
+	color: black;
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+	
+}
+.index-2-sec > span:hover {
+	transition: 1s;
+	color: white;
+	background-image: url(images/img/images.jpg);
+}
+
+nav:hover {
+	color: black;
+	background-color: white;
+	transition: 10s;
+}
+nav {
+	background-image: url(images/img/imagess.jpg);
+	background-size: cover;
+	color: white;
+	padding: 10px;
+	font-size: 30px;
+}
+nav > span {
+	margin: 0px 30px;
+}
+nav > span > a {
+	color: white;
+}
+
+nav > span > a:hover {
+	background-color: white;
+	color: black;
+	transition: 5s;
+}
+nav > span:hover {
+	color: blue;
+	transition: 2s;
+}

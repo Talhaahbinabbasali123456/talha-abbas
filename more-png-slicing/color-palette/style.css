@@ -1,0 +1,73 @@
+body {
+	font-family: roboto;
+}
+div {
+	height: 20px;
+	width: 40%;
+	border: 1px solid black;
+	padding: 18px 3px;
+}
+div:nth-child(1) {
+	background-color: #fef11a;
+	padding: 40px 3px;
+}
+
+div:nth-child(1) span {
+	position: absolute;
+	top: 13px;
+}
+div:nth-child(1) > span + span {
+	position: absolute;
+	top: 85px;
+}
+div:nth-child(1) > span + span + span {
+	position: absolute;
+	left: 350px;
+}
+div:nth-child(2) {
+	background-color: #fefee6;
+} 
+div:nth-child(2) > span + span {
+	margin-left: 305px;
+}
+div:nth-child(3) {
+	background-color: #fefcc2;
+} 
+div:nth-child(3) > span + span {
+	margin-left: 305px;
+}div:nth-child(4) {
+	background-color: #fdfa98;
+} 
+div:nth-child(4) > span + span {
+	margin-left: 305px;
+}div:nth-child(5) {
+	background-color:#fdf76c;
+} 
+div:nth-child(5) > span + span {
+	margin-left: 305px;
+}div:nth-child(6) {
+	background-color: #fef448;
+} 
+div:nth-child(6) > span + span {
+	margin-left: 305px;
+}div:nth-child(7) {
+	background-color:#fef11a;
+} 
+div:nth-child(7) > span + span {
+	margin-left: 305px;
+}div:nth-child(8) {
+	background-color: #ffdc07;
+} 
+div:nth-child(8) > span + span {
+	margin-left: 305px;
+}div:nth-child(9) {
+	background-color:#ffc100;
+} 
+div:nth-child(9) > span + span {
+	margin-left: 305px;
+}div:nth-child(10) {
+	background-color: #ffa500;
+} 
+div:nth-child(10) > span + span {
+	margin-left: 305px;
+}

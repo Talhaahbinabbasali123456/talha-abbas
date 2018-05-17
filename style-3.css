@@ -1,0 +1,112 @@
+body {
+	background-image: url(images/Having-a-mentor-benefits.jpg);
+	background-size: cover;
+	cursor: pointer;
+	font-family: 'Berkshire Swash', cursive;
+}
+section {
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	width: 60%;
+	background-color: #0000009e;
+}
+div {
+	text-align: center;
+}
+.span {
+	display: block;
+	padding: 20px 40px;
+	color: white;
+	font-size: 20px;
+}
+textarea {
+	width: 98%;
+	height: 50px;
+	display: block;
+	padding: 5px;
+	font-size: 10px;
+}
+button {
+	margin-top: 20px;
+	margin-left: 350px;
+	text-align: center;
+	display: block;
+	padding: 10px 20px; 
+	font-size: 25px;
+}
+p:hover {
+	padding: 60px 0px;
+	line-height: 0px;
+	border-radius: 100px;
+	font-weight: bold;
+	display: block;
+	background-image: url(images/thanks.png);
+	background-size: cover;
+	top: 120px;
+	height: 260px;
+	font-size: 90px;
+	transition: 5s;
+	color: red;
+}
+p:hover + span + textarea  {
+	transition: 5s;
+	opacity: 0.3;
+}
+p:hover + span  {
+	transition: 5s;
+	opacity: 0.3;
+}
+p:hover + button  {
+	transition: 5s;
+	opacity: 0.3;
+}
+p {
+	padding: 20px 0px;
+	color: red;
+	background-image: url(images/thanks.png);
+	background-size: cover;
+	font-size: 40px;
+	position: absolute;
+	top: 200px;
+	right: 0px;
+	line-height: 20px;
+	margin-top: 5px;
+	width: 100%;
+}
+img {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 30%;
+	height: 600px;
+}
+
+nav:hover {
+	color: black;
+	background-color: white;
+	transition: 10s;
+}
+nav {
+	background-image: url(images/img/imagess.jpg);
+	background-size: cover;
+	color: white;
+	padding: 10px;
+	font-size: 30px;
+}
+nav > span {
+	margin: 0px 30px;
+}
+nav > span > a {
+	color: white;
+}
+
+nav > span > a:hover {
+	background-color: white;
+	color: black;
+	transition: 5s;
+}
+nav > span:hover {
+	color: blue;
+	transition: 2s;
+}

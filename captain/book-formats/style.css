@@ -1,0 +1,188 @@
+body {
+	font-family: sans-serif;
+}
+section {
+	width: 100%;
+	display: flex;
+}
+.container {
+	width: 6%;
+	min-width: 120px;
+	height: 200px;
+	margin-right: 20px;
+}
+.a {
+	position: relative;
+	width: 110%;
+	min-width: 120px;
+	height: 80px;
+	border: 1px solid gray;
+
+}
+.a > span {
+	position: relative;
+	top: 17px;
+	left: 5px;
+	font-size: 20px;
+	word-break: normal;
+	padding: 0px 100px 0px 0px;
+}
+#a {
+	color: gray;
+	position: relative;
+	top: 25px;
+	right: 60px;
+	font-size: 18px;
+	/*word-break: normal;*/
+	padding: 0px 100px 0px 0px;
+}
+.b > span {
+	color: red;
+}
+.b {
+	position: relative;
+	top: 9px;
+	font-size: 14px;
+	line-height: 18px;
+	word-spacing: 1.5px;
+	color: blue;
+}
+
+.containertwo {
+	width: 6%;
+	height: 200px;
+	min-width: 120px;
+	/*position: absolute;*/
+	margin-right: 20px;
+	top: 9px;
+	left: 150px;
+
+}
+#b {
+	color: red;
+	position: relative;
+	top: 2px;
+	left: 0px;
+	font-size: 18px;
+	word-break: normal;
+	padding: 0px 100px 0px 0px;
+}
+.c {
+	position: relative;
+	width: 110%;
+	min-width: 120px;
+	height: 80px;
+	border: 1px solid orange;
+	background-color: #fef8f2;
+
+}
+.c > span {
+	position: relative;
+	top: 17px;
+	left: 5px;
+	font-size: 20px;
+	word-break: normal;
+	padding: 0px 100px 0px 0px;
+}
+.b > div {
+	color: gray;
+	display: inline-block;
+}
+.containerthree {
+	width: 6%;
+	min-width: 120px;
+	height: 200px;
+	margin-right: 20px;
+	/*position: absolute;*/
+	top: 9px;
+	left: 295px;
+
+}
+#d {
+	color: gray;
+	position: relative;
+	top: 2px;
+	left: 0px;
+	font-size: 18px;
+	word-break: normal;
+	padding: 0px 100px 0px 0px;
+}
+.e {
+	position: relative;
+	top: 9px;
+	font-size: 14px;
+	line-height: 18px;
+	word-spacing: 1.5px;
+	color: blue;
+}
+.e > div {
+	color: gray;
+	display: inline-block;
+}
+.containerfour {
+	width: 6%;
+	min-width: 120px;
+	height: 200px;
+	margin-right: 20px;
+	/*position: absolute;*/
+	top: 9px;
+	left: 442px;
+
+}
+.f > span {
+	color: blue;
+}
+.f {
+	position: relative;
+	top: 9px;
+	font-size: 14px;
+	line-height: 18px;
+	color: red;
+}
+#fab {
+	color: orange;
+}
+.containerfive {
+	width: 6%;
+	min-width: 120px;
+	height: 200px;
+	margin-right: 20px;
+	/*position: absolute;*/
+	top: 9px;
+	left: 590px;
+
+}
+.g {
+	position: relative;
+	width: 110%;
+	min-width: 120px;
+	height: 110px;
+	border: 1px solid gray;
+
+}
+.g > span {
+	position: relative;
+	top: 17px;
+	left: 5px;
+	font-size: 20px;
+	padding: 0px 100px 0px 0px;
+}
+#h {
+	color: gray;
+	position: relative;
+	top: 2px;
+	left: 0px;
+	display: inline-block;
+	font-size: 18px;
+	padding: 0px 0px 0px 0px;
+}
+.containersix {
+	width: 6%;
+	min-width: 120px;
+	height: 200px;
+	margin-right: 20px;
+	/*position: absolute;*/
+	top: 9px;
+	left: 740px;
+
+}

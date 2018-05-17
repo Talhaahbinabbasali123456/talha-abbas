@@ -1,0 +1,201 @@
+.container {
+	border:1px solid #ddea69;
+	display: block;
+	padding: 60px 15px 15px 15px;
+	width: 28%;
+	position: absolute;
+}
+.a {
+	border-bottom: 1px solid #ddea69;
+	padding: 10px 40px 15px 0px;
+}
+h1	{
+	font-size: 21px;
+	color: blue;
+	margin: 0px 0px 7px;
+	padding: 0px; 
+	display: block;
+}
+header 	{
+	text-align: center;
+	background: linear-gradient(to right, #00800094 , #0000ff87);
+	color: white;
+	font-size: 25px;
+	padding: 15px;
+	width: 91%;
+	position: absolute;
+	top: 0px;	
+	left: 0px;
+}
+p {
+	margin: 0px 0px 7px;
+	padding: 0px;
+	color: gray;
+	font-size: 13px; 
+}
+.b {
+	color: green;
+}
+.c {
+	font-weight: bold;
+	color: orange;
+	margin: 0px 0px 12px;
+	padding: 0px;
+}
+.d {
+
+	margin: 0px 0px 7px;
+	padding: 5px;
+	color: blue;
+	background-color: lightblue;
+}
+.e {
+	
+	margin: 0px 0px 7px;
+	padding: 5px;
+	color: blue;
+	background-color: lightblue;
+}
+.f {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+}
+.g {
+	padding: 8px;
+	margin: 10px 0px 7px 0px;
+	background-color: blue;
+	border-radius: 2px;
+	color: white;
+	border:1px solid blue;
+}
+.a:nth-child(5)  {
+	border-bottom: 0px solid gold;
+}
+.hide {
+	font-size: 20px;
+	/*width: 0px;*/
+	position: absolute;
+	right: 15px;
+	color: gray; 
+	display: none;
+}
+.hide:hover {
+	font-size: 20px;
+	position: absolute;
+	right: 15px;
+	color: black; 
+	display: none;
+}
+.a:hover {
+	cursor: pointer;
+}
+.a:hover .hide {
+	display: block;
+}
+.hider  {
+	position: absolute;
+	padding: 1px;
+	right: 0px;
+	bottom: 20px;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	font-size: 15px; 
+	background-color: black;
+	color: white;
+	display: none; 
+}
+.hi{
+	position: absolute;
+    left: 282px;
+	top: 71px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	z-index: 1;
+	color: black; 
+}
+.hi:hover .hider {
+
+	position: absolute;
+	text-align: center;
+	padding: 1px;
+	right: 0px;
+	bottom: 20px;
+	width: 100px;
+	height: 20px;
+	font-size: 15px; 
+	background-color: black;
+	color: white;
+	display: block; 
+}
+
+.hiderr {
+	background-color: black;
+	color: white; 
+	font-size: 15px;
+	padding: 1px;
+	right: 3px;
+	bottom: 20px;
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	display: none;
+}
+.hid {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	display: block;
+	z-index: 1;
+	top: 198px;
+	right: 15px;
+}
+.hid:hover .hiderr {
+
+	position: absolute;
+	right: 3px;
+	bottom: 20px;
+	width: 100px;
+	height: 20px;
+	font-size: 15px; 
+	background-color: black;
+	color: white;
+	display: block; 
+}
+.hiderrr {
+	background-color: black;
+	color: white; 
+	font-size: 15px;
+	padding: 1px;
+	right: 3px;
+	bottom: 20px;
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	display: none;
+
+}
+.hidd {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	display: block;
+	z-index: 1;
+	bottom: 204px;
+	right: 15px;
+}
+.hidd:hover .hiderrr {
+
+	position: absolute;
+	right: 3px;
+	bottom: 20px;
+	width: 100px;
+	height: 20px;
+	font-size: 15px; 
+	background-color: black;
+	color: white;
+	display: block; 
+}
+

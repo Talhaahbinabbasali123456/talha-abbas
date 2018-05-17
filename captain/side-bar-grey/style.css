@@ -1,0 +1,43 @@
+.a {
+	width: 26%;
+	border-bottom: 1px solid black;
+	padding: 15px 0px 15px 0px;
+	display: inline-block;
+}
+.a > div {
+	margin: 0px;
+	cursor: pointer;
+	position: relative;
+	left: 0px;
+	font-family: sans-serif;
+	padding: 10px 15px;
+	font-size:20px;
+}
+.b {
+	width: 26%;
+	border-bottom: 1px solid black;
+	padding: 15px 0px 15px 0px;
+	display: inline-block;
+}
+.b > div {
+	margin: 0px;
+	cursor: pointer;
+	position: relative;
+	left: 0px;
+	font-family: sans-serif;
+	padding: 10px 15px;
+	font-size:20px;
+}
+body {
+	/*position: absolute;*/
+	/*padding: 0px;*/
+	margin: 0px;
+}
+.a > div:hover {
+	background-color: #8080802e;
+
+}
+.b > div:hover {
+	background-color: #8080802e;
+
+}
